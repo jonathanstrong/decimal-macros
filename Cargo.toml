@@ -2,6 +2,9 @@
 name = "decimal-macros"
 version = "0.3.0"
 authors = ["Jonathan Strong <jonathan.strong@gmail.com>"]
+license-file = "LICENSE"
+repository = "https://git.mmcxi.com/jstrong/decimal-macros.git"
+description = "helper proc macro for decimal crate"
 
 [lib]
 name = "decimal_macros"
