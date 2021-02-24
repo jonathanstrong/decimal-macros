@@ -1,11 +1,12 @@
 [package]
 name = "decimal-macros"
-version = "0.3.0"
+version = "0.3.1"
 authors = ["Jonathan Strong <jonathan.strong@gmail.com>"]
 license-file = "LICENSE"
 repository = "https://git.mmcxi.com/jstrong/decimal-macros.git"
 description = "helper proc macro for decimal crate"
 publish = ["mmcxi"]
+edition = "2018"
 
 [lib]
 name = "decimal_macros"

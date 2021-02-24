@@ -1,8 +1,5 @@
-extern crate decimal;
-extern crate proc_macro;
 #[macro_use]
 extern crate quote;
-extern crate proc_macro2;
 
 use proc_macro::TokenStream;
 use std::str::FromStr;
