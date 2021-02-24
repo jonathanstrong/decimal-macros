@@ -1,0 +1,17 @@
+[package]
+name = "decimal-macros"
+version = "0.3.0"
+authors = ["Jonathan Strong <jonathan.strong@gmail.com>"]
+
+[lib]
+name = "decimal_macros"
+proc-macro = true
+
+[dependencies]
+decimal = { version = "2.4", registry = "mmcxi" }
+libc = "~0.2"
+quote = "0.6"
+proc-macro2 = "0.4"
+
+[build-dependencies]
+gcc = "0.3"
