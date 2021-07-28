@@ -13,7 +13,7 @@ name = "decimal_macros"
 proc-macro = true
 
 [dependencies]
-decimal = { version = "2.4", registry = "mmcxi" }
+decimal = { git = "https://github.com/jonathanstrong/decimal", branch = "v2.4.x" }
 libc = "~0.2"
 quote = "0.6"
 proc-macro2 = "0.4"
